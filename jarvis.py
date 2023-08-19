@@ -91,10 +91,7 @@ if __name__ == '__main__':
             if f"Open {site[0]}".lower() in query.lower():
                 say(f"Opening {site[0]} sir...")
                 webbrowser.open(site[1])
-        # todo: Add a feature to play a specific song
-        # if "open music" in query:
-        #     musicPath = "C:\Users\Piyush\Desktop\\teri.mp3"
-        #     os.system(f"open {musicPath}")
+        
 
         if "tell time" in query:
             musicPath = "/Users/harry/Downloads/downfall-21371.mp3"
@@ -102,9 +99,7 @@ if __name__ == '__main__':
             min = datetime.datetime.now().strftime("%M")
             say(f"Sir time is {hour} bajke {min} minutes")
 
-        # elif "open pass".lower() in query.lower():
-        #     os.system(f"open /Applications/Passky.app")
-
+        
         elif "Using artificial intelligence".lower() in query.lower():
             ai(prompt=query)
 
