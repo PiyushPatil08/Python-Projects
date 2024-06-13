@@ -1,2 +1,2 @@
-This Repostory contains various Python Projects that i made and practised along with their source code.
+This Repostory contains various Python Projects that i made and practised.
 Thanks!
